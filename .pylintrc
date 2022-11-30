@@ -1,0 +1,17 @@
+[MASTER]
+reports=y
+disable=too-few-public-methods
+
+[BASIC]
+# lots of maths-style naming involved in sections
+good-names=i,j,k,_,id,T,dd,md,id,dm,im,mm,mi
+
+[FORMAT]
+max-line-length=100
+
+[MESSAGES CONTROL]
+disable=raise-missing-from
+
+[VARIABLES]
+init-import=no
+

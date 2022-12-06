@@ -80,7 +80,7 @@ def _parse_args(args: list[str]) -> argparse.Namespace:
 def entrypoint(arguments: list[str] = None) -> int:
     """ The main brawn entry point, if no arguments are given, sys.argv will be used """
     if arguments is None:
-        arguments = list(sys.argv)
+        arguments = list(sys.argv[1:])
     args = _parse_args(arguments)
     if args.build_cache:
         return _main_build_cache(args.query, args.build_cache)

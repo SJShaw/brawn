@@ -1,7 +1,7 @@
 """ A collection of constants for use throughout brawn """
 
 # the version of brawn
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 
 # values used throughout brawn
 ID_GUARD = -1
